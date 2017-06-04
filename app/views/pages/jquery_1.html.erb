@@ -1,0 +1,16 @@
+
+<script>
+  $(document).ready(function(){
+   jQuery("#my-click").click(function(){
+     jQuery("#foo").after('<h1>zoo</h1>');
+   })
+   })
+</script>
+
+<p>
+  <a id="my-click">Click Me</a>
+</p>
+
+<div id="foo" style="border: 1px solid red;">
+  <p>bar</p>
+</div>
